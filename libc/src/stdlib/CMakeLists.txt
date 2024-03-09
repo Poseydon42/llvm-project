@@ -58,6 +58,8 @@ add_entrypoint_object(
     strfromd.cpp
   HDRS
     strfromd.h
+  DEPENDS
+    libc.src.stdio.printf_core.printf
 )
 
 add_entrypoint_object(
@@ -66,6 +68,8 @@ add_entrypoint_object(
     strfromf.cpp
   HDRS
     strfromf.h
+  DEPENDS
+    libc.src.stdio.printf_core.printf
 )
 
 add_entrypoint_object(
@@ -74,6 +78,8 @@ add_entrypoint_object(
     strfroml.cpp
   HDRS
     strfroml.h
+  DEPENDS
+    libc.src.stdio.printf_core.printf
 )
 
 add_entrypoint_object(
